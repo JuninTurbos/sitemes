@@ -1,0 +1,125 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-imagem {
+    max-width: 80px; /* Reduce the logo size */
+}
+
+.cabecalho-nav {
+    display: flex;
+}
+
+.cabecalho-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.cabecalho-lista-item {
+    margin-right: 20px;
+}
+
+/* Estilos para a seção "Sobre Nós" */
+.sobre-nos {
+    padding: 40px 20px;
+    background-color: #808080;
+}
+
+.sobre-nos-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-imagem {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos para a seção "Estudante" */
+.estudante {
+    padding: 40px 20px;
+    background-color: #808080; /* Change the background color to gray */
+}
+
+.estudante h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.aluno {
+    padding: 20px;
+    border: 1px solid #ff7f00;
+    border-radius: 5px;
+}
+
+.imagem-estudante {
+    max-width: 100%;
+    margin-bottom: 10px;
+    max-height: 200px; /* Set maximum height for the student images */
+}
+
+.instagram-logo {
+    max-width: 20px; /* Reduce the Instagram logo size */
+    margin-top: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para os links */
+a {
+    color: #ff7f00; /* Change link color to orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para os títulos */
+h2, h3 {
+    color: #ff7f00; /* Change title color to orange */
+}
+.instagram-logo {
+    max-width: 20px; /* Reduce the Instagram logo size */
+    margin-top: 10px;
+}
+/* ... (existing styles) ... */
+
+.instagram-logo {
+    max-width: 40px; /* Reduce the Instagram logo size */
+    margin-top: 35px;
+}
+
+/* ... (existing styles) ... */
+.estudante{
+    background-color: #808080;
+}
